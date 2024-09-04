@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "696532100562",
+    "project_id": "choice-f0f70",
+    "storage_bucket": "choice-f0f70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696532100562:android:04e8188703d1b7d0d6140b",
+        "android_client_info": {
+          "package_name": "com.walid580.choice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696532100562-hevk1vdvmfv56f3v61hmq6a98aajq89i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walid580.choice",
+            "certificate_hash": "de229a980a5399a6b3712de74de8717ecf2abc37"
+          }
+        },
+        {
+          "client_id": "696532100562-n797r5vgarmh9q4mlphsa5a09n9u7f98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walid580.choice",
+            "certificate_hash": "47596475759a65dd7de0c492ead1de6cd6ce9349"
+          }
+        },
+        {
+          "client_id": "696532100562-rl00pl9hlcvmv0n6tcuoc8282e1184q6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walid580.choice",
+            "certificate_hash": "0bd19a7c4573b1eac5bdaff0f7dba15bdede212e"
+          }
+        },
+        {
+          "client_id": "696532100562-furm22k56vdj2mk2859g0h0lid78acha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvwOWkTj3KHXCV9cMe5P9DTD1D25MsBlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696532100562-diar01idrmr9obn7k8jhmpqnpv3sietv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

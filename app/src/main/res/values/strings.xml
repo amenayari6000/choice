@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> CHOICE</string>
+    <string name="change_language">Change Language</string>
+    <string name="to_change_the_language_of_the_app_go_to_settings_system_languages_amp_input_language">To change the language of the app, go to Settings phone> System > Languages >(en,fr,ar)"</string>
+    <string name="presentation_texte"> APP PRESENTATION </string>
+    <string name="te_presentation">This application is designed to help you to understand the situation of your relationship with your romantic partner. There are four scenarios that can lead to the end of an emotional relationship, making it difficult to overcome, and four scenarios that can make it endure despite the problems and differences between partners. Simply choose your situation, and you will understand yours case, with the help of artificial intelligence based on millions of human experiences.</string>
+    <string name="sign_in_app">Sign in </string>
+    <string name="Logout">Sign out </string>
+
+
+    <string name="textViewChoice1">1- Lack of communication and sexual problmes</string>
+    <string name="textViewChoice2">2- Infidelity and trust issues</string>
+    <string name="textViewChoice3">3- Financial conflicts</string>
+    <string name="textViewChoice4">4-Irreconcilable differences</string>
+    <string name="textViewChoice5">1.1-Honest Communication</string>
+    <string name="textViewChoice6">2.2-Willingness to Seek Help</string>
+    <string name="textViewChoice7">3.3-Mutual Respect and Empathy</string>
+    <string name="textViewChoice8">4.4-Commitment to Working on the Relationship</string>
+
+
+    <string name="buttonReset">response </string>
+
+
+    <string name="response_1"> 1-Communication , satisfaction and compatibility sexual is the foundation of a healthy relationship. When couples struggle to communicate effectively, misunderstandings, resentment, and emotional distance can arise, leading to marital dissatisfaction and ultimately divorce.</string>
+    <string name="response_2"> 2-Infidelity can shatter the trust and emotional bond between partners. Whether it involves physical or emotional betrayal, infidelity is a common reason for divorce as it undermines the core pillars of a committed relationship.</string>
+    <string name="response_3">3-Money-related issues can be a significant source of strain on a marriage. Disagreements over spending habits, financial responsibilities, or incompatible financial goals can create tension and conflict, often resulting in divorce.</string>
+    <string name="response_4">4-Over time, couples may discover fundamental differences in their behavior, beliefs, or life goals that are incompatible with maintaining a healthy and fulfilling relationship. These differences can become more apparent as the couple grows and changes, leading to a decision to end the marriage.</string>
+    <string name="response_5">1.1-Whatever the problems,If both partners are committed to open and honest communication, they can work through various issues and conflicts. Effective communication allows for understanding, compromise, and finding solutions together, which can strengthen the relationship and prevent the need for divorce.</string>
+    <string name="response_6">2.2-Whatever the problems,When faced with challenges, if both partners are willing to seek professional help, such as couples therapy or marriage counseling, they can gain insights, acquire new skills, and find guidance to navigate difficult situations. Professional assistance can provide tools and strategies to improve the relationship and foster growth.</string>
+    <string name="response_7">3.3-Whatever the problems,Respect and empathy are vital elements of a healthy relationship. When partners genuinely value and understand each others perspectives, they can navigate differences with compassion and find common ground. Mutual respect and empathy foster a sense of connection and can help resolve conflicts without resorting to divorce.</string>
+    <string name="response_8">4.4-Whatever the problems,If both partners are committed to putting in the necessary effort and making compromises to improve the relationship, there is a higher chance of resolving issues and rebuilding the marital bond. With dedication and a shared commitment to growth, couples can overcome obstacles and create a fulfilling partnership.</string>
+
+
+</resources>

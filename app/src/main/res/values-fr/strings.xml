@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name"> choix</string>
+    <string name="change_language">Changer La Langue</string>
+    <string name="to_change_the_language_of_the_app_go_to_settings_system_languages_amp_input_language"> DANS VOTRE SMART PHONE PRAMETRES>LANGUE>CHOIX DE TA LANGUE PREFEREE(en,fr,ar)</string>
+    <string name="presentation_texte">PRESENTATION</string>
+    <string name="te_presentation">Ce concept d application est conçu pour vous aider a comprendre la situation de votre relation avec votre partenaire emotionnel. Il existe quatre scenarios dans lesquels une relation emotionnelle peut prendre fin et devenir difficile à surmonter, ainsi que quatre scenarios dans lesquels la relation peut survivre malgre les problemes et les differences entre les partenaires. Choisissez simplement votre situation et vous comprendrez pourquoi, grâce à l\ intelligence artificielle qui sappuie sur des millions d\'expériences humaines.</string>
+    <string name="sign_in_app">Entrez svp</string>
+    <string name="Logout">Exit App</string>
+
+
+
+
+    <string name="textViewChoice1">1-communication et problemes sexuals</string>
+    <string name="textViewChoice2">2-Infidelite et problemes de confiance</string>
+    <string name="textViewChoice3">3-Conflits financiers</string>
+    <string name="textViewChoice4">4-Differences irreconciliables</string>
+    <string name="textViewChoice5">1.1-Communication honnete</string>
+    <string name="textViewChoice6">2.2-Volonte de chercher de laide</string>
+    <string name="textViewChoice7">3.3-Respect mutuel et empathie</string>
+    <string name="textViewChoice8">4.4-Engagement a travailler sur la relation</string>
+
+    <string name="buttonReset">Reponse</string>
+
+    <string name="response_1">1-La communication avec la satisfaction et compatibilite sexuelle sont les fondement dune relation saine. Lorsque les couples ont du mal a communiquer efficacement, des malentendus, de la rancœur et une distance emotionnelle peuvent survenir, entrainant une insatisfaction conjugale et, finalement, un divorce.</string>
+    <string name="response_2">2-L\infidelite peut briser la confiance et le lien emotionnel entre les partenaires. Qu\il s\agisse de trahison physique ou emotionnelle, linfidelite est une raison courante de divorce car elle mine les piliers fondamentaux dune relation engagee.</string>
+    <string name="response_3">3-Les problemes lies a l\argent peuvent etre une source de tension importante dans un mariage. Les desaccords concernant les habitudes de depenses, les responsabilites financieres ou les objectifs financiers incompatibles peuvent creer des tensions et des conflits, entrainant souvent un divorce.</string>
+    <string name="response_4">4-Au fil du temps, les couples peuvent decouvrir des differences fondamentales dans leurs comportement, leurs croyances ou leurs objectifs de vie qui sont incompatibles avec le maintien dune relation saine et epanouissante. Ces differences peuvent devenir plus apparentes a mesure que le couple evolue et change, conduisant a une decision de mettre fin au mariage.</string>
+    <string name="response_5">1.1-quel que soit le probleme Si les deux partenaires s\engagent a une communication ouverte et honnete, ils peuvent surmonter divers problemes et conflits. Une communication efficace permet la comprehension, le compromis et la recherche de solutions ensemble, ce qui peut renforcer la relation et eviter le besoin de divorce.</string>
+    <string name="response_6">2.2-quel que soit le problemeFace aux defis, si les deux partenaires sont prets a rechercher de laide professionnelle, telle que la therapie de couple ou le counseling matrimonial, ils peuvent acquerir des connaissances, acquerir de nouvelles competences et trouver des conseils pour naviguer dans des situations difficiles.</string>
+    <string name="response_7">3.3-quel que soit le probleme Le respect et lempathie sont des elements essentiels dune relation saine pour ca Le pourcentage de constance dans ce cas sera superieur a son echec.</string>
+    <string name="response_8">4.4-quel que soit le probleme Si les deux partenaires s\engagent a faire les efforts necessaires et a faire des compromis pour ameliorer la relation, il y a une plus grande chance de resoudre les problemes et de reconstruire le lien conjugal. Avec devouement et un engagement commun envers la croissance, les couples peuvent surmonter les obstacles et creer un partenariat epanouissant.</string>
+
+
+
+</resources>
+
+
+

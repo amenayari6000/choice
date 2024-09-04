@@ -1,0 +1,146 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/schrollHome">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewChoice1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textViewChoice2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice2"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textViewChoice3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice3"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textViewChoice4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice4"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textViewChoice5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice5"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textViewChoice6"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice6"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textViewChoice7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice7"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/ic_heart_pink"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/textViewChoice8"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+
+            android:layout_marginTop="4dp"
+            android:background="@drawable/polygon_background"
+            android:gravity="left"
+            android:text="@string/textViewChoice8"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded,TextSizeCheck"
+            app:drawableRightCompat="@drawable/ic_heart_pink" />
+
+
+
+        <TextView
+            android:id="@+id/textResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/polygon_background"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/idBtnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/polygon_background1"
+            android:text="@string/Logout"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,174 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".MainActivity">
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_sign_in"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/wellcom001"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/change_language_textview"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/change_language_textview"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/polygon_background1"
+        android:backgroundTint="#0E0F2E"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/change_language"
+        android:textColor="@color/teal_200"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ic_Anim"
+        tools:ignore="Autofill,LabelFor,TextFields,VisualLintTextFieldSize" />
+
+    <ImageView
+        android:id="@+id/ic_Anim"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/animationmain"
+        android:importantForAccessibility="no"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/my_text_view"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/polygon_background"
+        android:inputType="none"
+        android:text="@string/to_change_the_language_of_the_app_go_to_settings_system_languages_amp_input_language"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/change_language_textview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/polygon_background1"
+        android:backgroundTint="#0D0E2C"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/presentation_texte"
+        android:textColor="@color/teal_200"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ic_Anim1"
+        tools:ignore="Autofill,LabelFor,TextFields,VisualLintTextFieldSize" />
+
+    <ImageView
+        android:id="@+id/ic_Anim1"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/animationmain1"
+        android:importantForAccessibility="no"
+        app:layout_constraintTop_toBottomOf="@+id/my_text_view"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:id="@+id/shrollmain"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/presentation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/polygon_background"
+                android:ems="10"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/te_presentation"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="@string/TextSizeCheck,VisualLintLongText" />
+
+            <!-- Autres éléments à l'intérieur de la ScrollView -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="192dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@android:drawable/sym_action_email"
+        android:drawableTop="@android:drawable/stat_sys_phone_call_forward"
+        android:drawableEnd="@drawable/googleg_standard_color_18"
+
+        android:text="@string/sign_in_app"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
