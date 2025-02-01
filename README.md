@@ -16,12 +16,16 @@ DEMO <!-- [video ](https://youtu.be/PvoDHAi8OPg)-->
 Screenshots
 Here are some screenshots of the app:
 
+## App Screenshots
 
+### 1. Sign In
+<img src="images/singin.jpg" width="150">
 
-![signin ](images/singin.jpg ) 
+### 2. First Page
+<img src="images/first_page.jpg" width="150">
 
-![first_page](images/first_page.jpg) 
+### 3. Arabic Page
+<img src="images/arabic_page.jpg" width="150">
 
-![arabic_page](images/arabic_page.jpg) 
-
- ![presentation](images/presentation.png) 
+### 4. Presentation
+<img src="images/presentation.png" width="150">
