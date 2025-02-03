@@ -13,6 +13,9 @@ Demo
 DEMO <!-- [video ](https://youtu.be/PvoDHAi8OPg)-->
 [DEMOE](https://youtu.be/VeND5cWX34w)
 
+##  link to google play:
+https://play.google.com/store/apps/details?id=com.walid580.choice
+
 Screenshots
 Here are some screenshots of the app:
 
